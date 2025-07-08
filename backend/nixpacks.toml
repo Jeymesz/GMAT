@@ -1,0 +1,9 @@
+[build]
+cmds = ["cd backend && npm install"]
+
+[start]
+cmd = "cd backend && npm start"
+
+[variables]
+NODE_VERSION = "20"
+NIXPACKS_NODEJS_PACKAGE_MANAGER = "npm"
